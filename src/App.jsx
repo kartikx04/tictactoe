@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import Board from "./components/Board.jsx"
-import './App.css'
 
 function App() {
 
@@ -8,7 +6,7 @@ function App() {
     <>
         <Board />
     </>
-  )
+  );
 }
 
 export default App
