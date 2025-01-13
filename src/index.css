@@ -77,8 +77,8 @@ button:active {
 /* MY CODE */
 
 .board-row {
-  width: 900px;
-  height: 300px;
+  width: 600px;
+  height: 200px;
   outline: white;
   display: flex; /* Flexbox for layout */
   flex-wrap: wrap; /* Allow wrapping to avoid overlap */
@@ -90,4 +90,19 @@ button:active {
   flex: 1 1 100px; /* Prevent overlap, allow flexible sizing */
   text-align: center;
   line-height: 50px;
+}
+.game {
+  display: flex;
+  justify-content: space-between; /* Optional: Adjust spacing between the children */
+  align-items: flex-start;       /* Align items at the top */
+}
+
+.game-board {
+  flex: 3; /* Adjust this value to control the relative width */
+  padding: 20px;
+}
+
+.game-info {
+  flex: 1; /* Adjust this value to control the relative width */
+  padding: 20px;
 }
