@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -57,8 +61,8 @@ button:focus-visible {
   outline: 2px auto -webkit-focus-ring-color;
 }
 button:active {
-  transform: translateY(0); /* Prevent vertical movement */
-  border: 2px solid #555; /* Change border color, not size */
+  transform: translateY(0);
+  border: 2px solid #555; 
 }
 
 @media (prefers-color-scheme: light) {
@@ -76,33 +80,33 @@ button:active {
 
 /* MY CODE */
 
-.board-row {
+/* .board-row {
   width: 600px;
   height: 200px;
   outline: white;
-  display: flex; /* Flexbox for layout */
-  flex-wrap: wrap; /* Allow wrapping to avoid overlap */
-  gap: 10px; /* Space between items */
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px;
 }
 .square {
-  max-width: 100%; /* Child cannot be wider than the parent */
-  max-height: 100%; /* Child cannot be taller than the parent */
-  flex: 1 1 100px; /* Prevent overlap, allow flexible sizing */
+  max-width: 100%; 
+  max-height: 100%; 
+  flex: 1 1 100px; 
   text-align: center;
   line-height: 50px;
 }
 .game {
   display: flex;
-  justify-content: space-between; /* Optional: Adjust spacing between the children */
-  align-items: flex-start;       /* Align items at the top */
+  justify-content: space-between; 
+  align-items: flex-start;     
 }
 
 .game-board {
-  flex: 3; /* Adjust this value to control the relative width */
+  flex: 3; 
   padding: 20px;
 }
 
 .game-info {
-  flex: 1; /* Adjust this value to control the relative width */
+  flex: 1; 
   padding: 20px;
-}
+} */

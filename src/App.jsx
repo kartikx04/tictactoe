@@ -1,4 +1,5 @@
 import Board from "./components/Board.jsx"
+import "./output.css"
 
 function App() {
 
